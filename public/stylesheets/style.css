@@ -1,8 +1,12 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/*Fuentes import*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
-a {
-  color: #00B7FF;
+@import "./general.css";
+@import "./home/header/header.css";
+.body_home_main_header{
+    background-color: rebeccapurple;
+    display: flex;
+}
+.body{
+    background-color: red;
 }
